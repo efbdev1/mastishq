@@ -1,23 +1,52 @@
-/vendor/
-node_modules/
+/node_modules
+/public/hot
+/public/storage
+/public/uploads
+/storage/*.key
+/storage/dotenv-editor
+/storage/framework/views
+/storage/framework/laravel-excel
+/storage/framework/cache
+/storage/framework/sessions
+/storage/debugbar
+/storage/installed
+/vendor
+/.idea
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
 npm-debug.log
 yarn-error.log
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+ngrok.exe
+/dashboard
+/test
+/webalizer
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
 
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+/nictus/node_modules
+/nictus/public/hot
+/nictus/public/storage
+/nictus/storage/*.key
+/nictus/vendor
+/nictus/bootstrap/cache
+/nictus/local.env
+/nictus/.env
+/nictus/.env.backup
+/nictus/.phpunit.result.cache
+/nictus/docker-compose.override.yml
+/nictus/Homestead.json
+/nictus/Homestead.yaml
+/nictus/npm-debug.log
+/nictus/yarn-error.log
+/nictus/.idea
+/nictus/.vscode
+/nictus/public/assets/admin
+/nictus/public/assets/bookappointment
+/nictus/public/assets/mentorProfile
+/nictus/public/assets/mentorExperience
+/nictus/public/assets/mentorEducation
+/nictus/public/assets/admin
